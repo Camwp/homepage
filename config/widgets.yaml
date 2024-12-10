@@ -1,0 +1,26 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/info-widgets/
+
+- greeting:
+    text: Hello, Cam!
+- resources:
+    cpu: true
+    memory: true
+    disk: /
+
+- search:
+    provider: duckduckgo
+    target: _blank
+
+- stocks:
+    provider: finnhub
+    color: true
+    cache: 1
+    watchlist:
+        - GME
+        - AMC
+        - NVDA
+        - MSFT
+        - AAPL
+        - BRK.A

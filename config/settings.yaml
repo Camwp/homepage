@@ -1,0 +1,43 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/settings/
+
+title: CasualHorizons Homepage
+
+background: 
+  image: https://images.unsplash.com/photo-1502790671504-542ad42d5189?auto=format&fit=crop&w=2560&q=80
+  blur: sm # sm, "", md, xl... see https://tailwindcss.com/docs/backdrop-blur
+  saturate: 50 # 0, 50, 100... see https://tailwindcss.com/docs/backdrop-saturate
+  brightness: 50 # 0, 50, 75... see https://tailwindcss.com/docs/backdrop-brightness
+  opacity: 50 # 0-100
+
+cardBlur: sm # sm, "", md, etc... see https://tailwindcss.com/docs/backdrop-blur
+
+
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey
+  finnhub: ctc8s2hr01qjor981iigctc8s2hr01qjor981ij0
+
+
+
+layout:
+  Websites & Apps:
+    style: row
+    columns: 2
+  Service Control:
+    style: row
+    columns: 2
+  Media:
+    style: row
+    columns: 1
+  Game Services:
+    style: row
+    columns: 1
+  Game Services Control:
+    header: false
+    style: row
+    columns: 2
+#  Speed Test Service:
+#    style: row
+#    row: 1
