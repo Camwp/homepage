@@ -4,7 +4,7 @@
 
 title: CasualHorizons Homepage
 
-background: 
+background:
   image: https://images.unsplash.com/photo-1502790671504-542ad42d5189?auto=format&fit=crop&w=2560&q=80
   blur: sm # sm, "", md, xl... see https://tailwindcss.com/docs/backdrop-blur
   saturate: 50 # 0, 50, 100... see https://tailwindcss.com/docs/backdrop-saturate
@@ -13,16 +13,16 @@ background:
 
 cardBlur: sm # sm, "", md, etc... see https://tailwindcss.com/docs/backdrop-blur
 
-
 providers:
   openweathermap: openweathermapapikey
   weatherapi: weatherapiapikey
   finnhub: ctc8s2hr01qjor981iigctc8s2hr01qjor981ij0
 
-
-
 layout:
   Websites & Apps:
+    style: row
+    columns: 2
+  Dapps:
     style: row
     columns: 2
   Service Control:

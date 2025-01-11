@@ -7,6 +7,14 @@
         - abbr: GH
           href: https://github.com/camwp
           icon: https://cdn-icons-png.flaticon.com/512/25/25231.png
+    - Netlify:
+        - abbr: NT
+          href: https://app.netlify.com/teams/camwp/sites
+          icon: https://i.pinimg.com/originals/3b/31/f7/3b31f71b115fc19ce67f9600a1f5244a.png
+    - OnRender:
+        - abbr: OR
+          href: https://dashboard.render.com/
+          icon: https://avatars.githubusercontent.com/u/36424661?s=200&v=4
 - Social:
     - Reddit:
         - abbr: RE
@@ -17,4 +25,4 @@
     - YouTube:
         - abbr: YT
           href: https://youtube.com/PurpleRabbitGrabber
-          icon:  https://www.youtube.com/s/desktop/4981804c/img/logos/favicon.ico
+          icon: https://www.youtube.com/s/desktop/4981804c/img/logos/favicon.ico

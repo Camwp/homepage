@@ -3,56 +3,82 @@
 # https://gethomepage.dev/configs/services/
 
 - Media:
-    - Jellyfin:
-        href: http://casualhorizons.com:8096
-        description: Remotely stream home library
-        icon: http://casualhorizons.com:8096/web/bc8d51405ec040305a87.ico
-        widget:
-            type: jellyfin
-            url: http://casualhorizons.com:8096
-            key: 3d77a2663f80450aac3bb65cc8f8a757
-            enableBlocks: true # optional, defaults to false
-            enableNowPlaying: true # optional, defaults to true
-            enableUser: true # optional, defaults to false
-            showEpisodeNumber: true # optional, defaults to false
-            expandOneStreamToTwoRows: false # optional, defaults to true
-        
+      - Jellyfin:
+            href: http://casualhorizons.com:8096
+            description: Remotely stream home library
+            icon: http://casualhorizons.com:8096/web/bc8d51405ec040305a87.ico
+            widget:
+                type: jellyfin
+                url: http://casualhorizons.com:8096
+                key: 3d77a2663f80450aac3bb65cc8f8a757
+                enableBlocks: true # optional, defaults to false
+                enableNowPlaying: true # optional, defaults to true
+                enableUser: true # optional, defaults to false
+                showEpisodeNumber: true # optional, defaults to false
+                expandOneStreamToTwoRows: false # optional, defaults to true
+
 - Service Control:
-    - Kodi:
-        href: http://casualhorizons.com:8082
-        description: Remote control for Kodi home theatre
-        icon: https://imgs.search.brave.com/IszUjjfyNIom7tswrlF0snNF-UAumfefO4E-NV4I-Ws/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8y/LzI1L0tvZGktbG9n/by1UaHVtYm5haWwt/bGlnaHQtdHJhbnNw/YXJlbnQucG5n
-    - CubeCoders AMP:
-        href: http://casualhorizons.com:8080
-        description: Manage web / game servers
-        icon: https://cubecoders.com/assets/images/favicon.png
+      - Kodi:
+            href: http://casualhorizons.com:8082
+            description: Remote control for Kodi home theatre
+            icon: https://imgs.search.brave.com/IszUjjfyNIom7tswrlF0snNF-UAumfefO4E-NV4I-Ws/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8y/LzI1L0tvZGktbG9n/by1UaHVtYm5haWwt/bGlnaHQtdHJhbnNw/YXJlbnQucG5n
+      - CubeCoders AMP:
+            href: http://casualhorizons.com:8080
+            description: Manage web / game servers
+            icon: https://cubecoders.com/assets/images/favicon.png
 - Websites & Apps:
-    - Blog:
-        href: https://blog.casualhorizons.com
-        description: Personal knowledge blog 
-        icon: https://blog.casualhorizons.com/assets/img/favicons/favicon.ico
-    - TruPump:
-        href: https://casualhorizons.com/
-        description: TruPump fitness web application
-        icon: https://lh3.googleusercontent.com/5tozZGcqjMx2z6KEZXf0Iz6eGxAFxjj5leouvZAMMfQWrjTnG7hR2VwQxUCX4VTf2OM
+      - Blog:
+            href: https://blog.casualhorizons.com
+            description: Personal knowledge blog
+            icon: https://blog.casualhorizons.com/assets/img/favicons/favicon.ico
+      - TruPump:
+            href: https://casualhorizons.com/
+            description: TruPump fitness web application
+            icon: https://lh3.googleusercontent.com/5tozZGcqjMx2z6KEZXf0Iz6eGxAFxjj5leouvZAMMfQWrjTnG7hR2VwQxUCX4VTf2OM
+      - WallWhisper:
+            href: https://wallwhisper.netlify.app/
+            description: Anonymous commenting PWA
+            icon: https://blog.casualhorizons.com/assets/img/favicons/favicon.ico
+      - Reddit Gore:
+            href: https://wallwhisper.netlify.app/
+            description: Anonymous commenting PWA
+            icon: https://cdn-icons-png.flaticon.com/512/2111/2111589.png
+      - Crypto Analysis:
+            href: https://gentle-conkies-5b4b48.netlify.app/
+            description: Anonymous commenting PWA
+            icon: https://blog.casualhorizons.com/assets/img/favicons/favicon.ico
+      - FFM Wheel:
+            href: https://ffmwheel.com
+            description: Onewheel modification PWA
+            icon: https://blog.casualhorizons.com/assets/img/favicons/favicon.ico
+- Dapps:
+      - Tamagotchi Dapp:
+            href: https://heroic-scone-dcab74.netlify.app/
+            description: Anonymous commenting PWA
+            icon: https://blog.casualhorizons.com/assets/img/favicons/favicon.ico
+      - SpockTuah MemberSite:
+            href: https://spocktuah.com/
+            description: Spock & Hawk Tuah Token Site & pre-sale
+            icon: https://blog.casualhorizons.com/assets/img/favicons/favicon.ico
+
 - Game Services:
-    - Minecraft Server:
-        icon: https://minecraft.wiki/images/Grass_Block_JE7_BE6.png?424c1
-        widget:
-            type: minecraft
-            url: udp://casualhorizons.com:25565
+      - Minecraft Server:
+            icon: https://minecraft.wiki/images/Grass_Block_JE7_BE6.png?424c1
+            widget:
+                type: minecraft
+                url: udp://casualhorizons.com:25565
 - Game Services Control:
-    - Minecraft Online Map View:
-        href: http://casualhorizons.com:6112
-        description: Click to view map
-        icon: http://casualhorizons.com:6112/assets/favicon-8768b872.png
-    - Minecraft Server Control Panel:
-        href: http://casualhorizons.com:8080/instances/bfee4dec
-        description: Click to access control panel
-        icon: https://cubecoders.com/assets/images/favicon.png
+      - Minecraft Online Map View:
+            href: http://casualhorizons.com:6112
+            description: Click to view map
+            icon: http://casualhorizons.com:6112/assets/favicon-8768b872.png
+      - Minecraft Server Control Panel:
+            href: http://casualhorizons.com:8080/instances/bfee4dec
+            description: Click to access control panel
+            icon: https://cubecoders.com/assets/images/favicon.png
 - Speed Test Service:
-    - Speed Test:
-        widget:
-            type: speedtest
-            url: http://casualhorizons.com
-            bitratePrecision: 3 # optional, default is 0
+      - Speed Test:
+            widget:
+                type: speedtest
+                url: http://casualhorizons.com
+                bitratePrecision: 3 # optional, default is 0
